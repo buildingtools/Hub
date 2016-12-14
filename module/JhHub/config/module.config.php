@@ -9,7 +9,7 @@ return [
         'exception_template'       => 'error/index',
         'template_map' => [
             'layout/layout'           => __DIR__ . '/../view/layout/layout.phtml',
-            'jh-hub/index/index'      => __DIR__ . '/../view/application/index/index.phtml',
+            'jh-hub/index/index'      => __DIR__ . '/../view/application/index/index.phtwml',
             'error/404'               => __DIR__ . '/../view/error/404.phtml',
             'error/index'             => __DIR__ . '/../view/error/index.phtml',
         ],
